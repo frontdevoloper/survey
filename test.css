@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn {
+  font-size: 18px;
+  width: 300px;
+  border: 1px solid salmon;
+  border-radius: 8px;
+  padding: 16px 0;
+  text-align: center;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: salmon;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.btn:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+
+.btn:hover {
+  background: rgb(197, 63, 48);
+  color: #fff;
+}
