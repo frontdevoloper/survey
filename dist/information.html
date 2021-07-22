@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" class="text-xs md:text-base">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/iconFonts.css" />
+  </head>
+  <body class="px-3 md:px-0 pb-8 sm:pb-16 md:pb-32">
+    <!--Header-->
+    <header
+      class="-mx-3 md:mx-0 bg-primary-900 h-16 mb-5 sm:mb-12 md:mb-16 md:px-6"
+    >
+      <div class="h-full flex justify-between items-center">
+        <div class="text-26 leading-32 hidden md:block text-primary-100">
+          WELL
+        </div>
+        <div class="container h-full">
+          <div class="flex h-full ml-10">
+            <div
+              class="
+                flex
+                items-center
+                justify-center
+                min-h-full
+                w-12
+                border-r border-primary-800
+              "
+            >
+              <div
+                class="flex flex-col justify-between w-3.5 h-3 cursor-pointer"
+              >
+                <span
+                  class="rounded-full block bg-primary-300 h-0.5 w-full"
+                ></span>
+                <span
+                  class="rounded-full block bg-primary-300 h-0.5 w-full"
+                ></span>
+                <span
+                  class="rounded-full block bg-primary-300 h-0.5 w-1/2 self-end"
+                ></span>
+              </div>
+            </div>
+            <div
+              class="
+                ml-5
+                my-auto
+                text-26
+                leading-32
+                block
+                sm:hidden
+                text-primary-100
+              "
+            >
+              WELL
+            </div>
+            <nav class="flex-350 ml-9 hidden sm:flex items-center">
+              <ul class="flex justify-between items-center w-full">
+                <li
+                  class="
+                    text-sm
+                    leading-21
+                    text-primary-50
+                    hover:text-primary-300
+                    transition-colors
+                    duration-500
+                    flex
+                    items-center
+                  "
+                >
+                  <a class="mr-3.5" href="#">Admin</a>
+                  <span class="text-5 icon-chevron"></span>
+                </li>
+                <li
+                  class="
+                    text-sm
+                    leading-21
+                    text-primary-50
+                    hover:text-primary-300
+                    transition-colors
+                    duration-500
+                  "
+                >
+                  <a href="#">People</a>
+                </li>
+                <li
+                  class="
+                    text-sm
+                    leading-21
+                    text-primary-50
+                    hover:text-primary-300
+                    transition-colors
+                    duration-500
+                  "
+                >
+                  <a href="#">Project</a>
+                </li>
+                <li
+                  class="
+                    text-sm
+                    leading-21
+                    text-primary-50
+                    hover:text-primary-300
+                    transition-colors
+                    duration-500
+                  "
+                >
+                  <a href="#">Training</a>
+                </li>
+              </ul>
+              <div></div>
+            </nav>
+          </div>
+        </div>
+        <div class="flex items-center flex-58 justify-between">
+          <div class="cursor-pointer">
+            <span class="text-xl icon-clobe text-primary-400"></span>
+          </div>
+          <div class="">
+            <a href="#">
+              <img class="w-8 h-8" src="img/user.png" alt="user" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--main-->
+    <section>
+      <div class="container">
+        <div
+          class="
+            mb-2
+            sm:mb-3
+            md:mb-7
+            leading-36
+            text-3xl
+            font-bold
+            text-blue-900 text-center
+            sm:text-left
+          "
+        >
+          Basic Project Information
+        </div>
+        <div class="mb-1.5 flex justify-between h-16">
+          <p
+            class="
+              text-base
+              leading-24
+              text-900
+              opacity-70
+              sm:self-end
+              tracking-0.04
+              max-w-635
+              w-full
+              mb-5
+              sm:mb-5
+              md:mb-7
+              text-primary-900 text-center
+              sm:text-left
+            "
+          >
+            Provide us with some details about your project so that we can
+            customize your asssessment. Select the project type so that we can
+            customize your assessment.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="border border-primary-200 shadow-box rounded-lg">
+          <div class="flex flex-col-reverse sm:flex-row">
+            <div class="flex-auto sm:flex-50% pl-1 sm:pl-4 md:pl-10 md:mr-4">
+              <div class="max-h-803 overflow-auto pr-4">
+                <form action="#">
+                  <div class="flex flex-col justify-between">
+                    <div class="mb-4 pt-4 md:pt-10">
+                      <label
+                        for="type"
+                        class="
+                          font-bold
+                          text-sm text-primary-900
+                          leading-21
+                          tracking-0.01
+                          mb-3
+                        "
+                        >Type of Project</label
+                      >
+                      <select
+                        class="
+                          bg-arrows bg-no-repeat bg-right
+                          pr-3
+                          appearance-none
+                          block
+                          text-base text-primary-900
+                          font-regular
+                          max-w-full
+                          w-full
+                          border-primary-300
+                          rounded
+                          border
+                          py-2
+                          pl-4
+                          mt-1
+                          mb-2
+                          ml1
+                          leading-24
+                          opacity-70
+                          tracking-0.04
+                        "
+                        name="type"
+                        id="type"
+                      >
+                        <option value="value">Single building</option>
+                        <option value="value">Single building</option>
+                        <option value="value">Single building</option>
+                      </select>
+                      <p
+                        class="
+                          text-sm text-primary-900
+                          leading-17
+                          opacity-50
+                          placeholder
+                        "
+                      >
+                        The type of assessment will impact how we rank the
+                        feasibility of specific features of the rating system.
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <p>
+                        <label
+                          for="project-name"
+                          class="
+                            font-bold
+                            text-sm text-primary-900
+                            leading-21
+                            tracking-0.01
+                            mb-3
+                          "
+                          >Project name</label
+                        >
+                        <input
+                          placeholder="Headquarters Building"
+                          id="project-name"
+                          type="text"
+                          class="
+                            placeholder-primary-900
+                            appearance-none
+                            block
+                            text-base text-primary-900
+                            font-regular
+                            max-w-full
+                            w-full
+                            border-primary-300
+                            rounded
+                            border
+                            py-2
+                            pl-4
+                            mt-1
+                            leading-24
+                            opacity-70
+                            tracking-0.04
+                          "
+                        />
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <label
+                        for="region"
+                        class="
+                          font-bold
+                          text-sm text-primary-900
+                          leading-21
+                          tracking-0.01
+                          mb-3
+                        "
+                        >Country / Region</label
+                      >
+                      <select
+                        class="
+                          bg-arrows bg-no-repeat bg-right
+                          pr-3
+                          appearance-none
+                          block
+                          text-base text-primary-900
+                          font-regular
+                          max-w-full
+                          w-full
+                          border-primary-300
+                          rounded
+                          border
+                          py-2
+                          pl-4
+                          mt-1
+                          mb-2
+                          ml1
+                          leading-24
+                          opacity-70
+                          tracking-0.04
+                        "
+                        name="region"
+                        id="region"
+                      >
+                        <option value="value">Russia</option>
+                        <option value="value">usa</option>
+                        <option value="value">Italia</option>
+                      </select>
+                      <p
+                        class="
+                          text-sm text-primary-900
+                          leading-17
+                          opacity-50
+                          placeholder
+                        "
+                      >
+                        If assessing a portfolio, enter the location of company
+                        headquarters.
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <label
+                        for="primary"
+                        class="
+                          font-bold
+                          text-sm text-primary-900
+                          leading-21
+                          tracking-0.01
+                          mb-3
+                        "
+                        >Primary space type</label
+                      >
+                      <select
+                        class="
+                          bg-arrows bg-no-repeat bg-right
+                          pr-3
+                          appearance-none
+                          block
+                          text-base text-primary-900
+                          font-regular
+                          max-w-full
+                          w-full
+                          border-primary-300
+                          rounded
+                          border
+                          py-2
+                          pl-4
+                          mt-1
+                          mb-2
+                          ml1
+                          leading-24
+                          opacity-70
+                          tracking-0.04
+                        "
+                        name="region"
+                        id="primary"
+                      >
+                        <option value="value">Office</option>
+                        <option value="value">Home</option>
+                      </select>
+                    </div>
+                    <div class="mb-4">
+                      <label
+                        for="core-project"
+                        class="
+                          font-bold
+                          text-sm text-primary-900
+                          leading-21
+                          tracking-0.01
+                          mb-3
+                        "
+                        >Is this a WELL CORE™ project?</label
+                      >
+                      <select
+                        class="
+                          bg-arrows bg-no-repeat bg-right
+                          pr-3
+                          appearance-none
+                          block
+                          text-base text-primary-900
+                          font-regular
+                          max-w-full
+                          w-full
+                          border-primary-300
+                          rounded
+                          border
+                          py-2
+                          pl-4
+                          mt-1
+                          mb-2
+                          ml1
+                          leading-24
+                          opacity-70
+                          tracking-0.04
+                        "
+                        name="region"
+                        id="core-project"
+                      >
+                        <option value="value">Yes</option>
+                        <option value="value">No</option>
+                      </select>
+                    </div>
+                    <div class="mb-4">
+                      <p>
+                        <label
+                          for="footage"
+                          class="
+                            font-bold
+                            text-sm text-primary-900
+                            leading-21
+                            tracking-0.01
+                            mb-3
+                          "
+                          >Approximate square footage</label
+                        >
+                        <input
+                          placeholder="150,000"
+                          id="footage"
+                          type="text"
+                          class="
+                            placeholder-primary-900
+                            appearance-none
+                            block
+                            text-base text-primary-900
+                            font-regular
+                            max-w-full
+                            w-full
+                            border-primary-300
+                            rounded
+                            border
+                            py-2
+                            pl-4
+                            mt-1
+                            leading-24
+                            opacity-70
+                            tracking-0.04
+                          "
+                        />
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <p>
+                        <label
+                          for="staff-count"
+                          class="
+                            font-bold
+                            text-sm text-primary-900
+                            leading-21
+                            tracking-0.01
+                            mb-3
+                          "
+                          >Approximate staff count</label
+                        >
+                        <input
+                          placeholder="375"
+                          id="staff-count"
+                          type="text"
+                          class="
+                            placeholder-primary-900
+                            appearance-none
+                            block
+                            text-base text-primary-900
+                            font-regular
+                            max-w-full
+                            w-full
+                            border-primary-300
+                            rounded
+                            border
+                            py-2
+                            pl-4
+                            mt-1
+                            leading-24
+                            opacity-70
+                            tracking-0.04
+                          "
+                        />
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <label
+                        for="outdoor-space"
+                        class="
+                          font-bold
+                          text-sm text-primary-900
+                          leading-21
+                          tracking-0.01
+                          mb-3
+                        "
+                        >Does the project have any outdoor spaces?</label
+                      >
+                      <select
+                        class="
+                          bg-arrows bg-no-repeat bg-right
+                          pr-3
+                          appearance-none
+                          block
+                          text-base text-primary-900
+                          font-regular
+                          max-w-full
+                          w-full
+                          border-primary-300
+                          rounded
+                          border
+                          py-2
+                          pl-4
+                          mt-1
+                          mb-2
+                          ml1
+                          leading-24
+                          opacity-70
+                          tracking-0.04
+                        "
+                        name="outdoor-space"
+                        id="outdoor-space"
+                      >
+                        <option value="value">Yes</option>
+                        <option value="value">No</option>
+                      </select>
+                    </div>
+                    <div class="mb-4">
+                      <label
+                        for="space"
+                        class="
+                          font-bold
+                          text-sm text-primary-900
+                          leading-21
+                          tracking-0.01
+                          mb-3
+                        "
+                        >Does the project have any outdoor spaces?</label
+                      >
+                      <select
+                        class="
+                          appearance-none
+                          block
+                          text-base text-primary-900
+                          font-regular
+                          max-w-full
+                          w-full
+                          border-primary-300
+                          rounded
+                          border
+                          py-2
+                          pl-4
+                          mt-1
+                          mb-2
+                          leading-24
+                          opacity-70
+                          tracking-0.04
+                        "
+                        name="space"
+                        id="space"
+                      >
+                        <option value="value">No</option>
+                        <option value="value">Yes</option>
+                      </select>
+                    </div>
+                    <div>
+                      <input
+                        class="
+                          w-full
+                          bg-primary-600
+                          text-primary-50
+                          rounded
+                          py-2
+                          cursor-pointer
+                        "
+                        type="submit"
+                        value="next"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div
+              class="
+                sm:max-w-1/2
+                flex-auto
+                sm:flex-50%
+                bg-primary-800
+                flex
+                items-center
+                justify-center
+                sm:rounded-r-lg sm:rounded-tl-none
+                rounded-t-lg
+              "
+            >
+              <div>
+                <div
+                  class="
+                    p-8
+                    sm:pl-0 sm:pt-0
+                    relative
+                    max-w-200
+                    sm:max-w-350 sm:max-h-350
+                    backdrop-blur-xl
+                  "
+                >
+                  <img
+                    class="relative z-10 rounded-full max-w-full"
+                    src="img/main.png"
+                    alt="image stock"
+                  />
+                  <span
+                    class="
+                      absolute
+                      bottom-0
+                      right-0
+                      w-0
+                      h-0
+                      border-b-150 border-l-150
+                      sm:border-b-261 sm:border-l-261
+                      border-tringle
+                    "
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
